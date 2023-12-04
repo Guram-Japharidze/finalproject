@@ -1,0 +1,128 @@
+@media(max-width: 475px) {
+    .section7 {
+        height: 640px;
+        padding-right: 24px;
+    }
+    .section7_form  {
+        width: 100%;
+    }
+    .section7_text_email_div  {
+        flex-direction: column;
+        row-gap: 36px;
+    }
+    textarea {
+        padding-right: 150px;
+    }
+}
+@media(max-width: 440px) {
+
+    /* header */
+    .header_search_div {
+        column-gap: 8px;
+    }
+
+    .header_search_button2 {
+        display: none;
+    }
+
+    /* section1 */
+    .section1_h2 {
+        font-size: 26px;
+    }
+
+    /* section2 */
+    .section2_div {
+        flex-direction: column;
+    }
+
+    /* section3 */
+    .section3_figure {
+        width: 240px;
+    }
+
+    .figure_img {
+        width: 100%;
+    }
+
+    .section3_price_div {
+        column-gap: 100px;
+    }
+
+    /* section4 */
+    .section4_h2 {
+        font-size: 26px;
+    }
+
+    .email_input {
+        width: 185px;
+        padding: 19px 93px 18px 16px;
+    }
+
+    .section4_button {
+        padding: 16px 20px 16px 21px;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    /* footer */
+    .footer_span {
+        display: none;
+    }
+
+    /* section5 */
+    .section5 {
+        background-image: url(../images/artworks/cover3_2.png);
+        height: 400px;
+    }
+
+    .section5_h2 {
+        font-size: 24px;
+        line-height: normal;
+    }
+
+    .search_input {
+        width: 180px;
+    }
+
+    .section5_button {
+        padding: 10px;
+    }
+
+    /* section6 */
+    .section6_div {
+        column-gap: 40px;
+    }
+
+    .section6_h3 {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .section6_sort_button {
+        padding: 6px;
+        font-size: 16px;
+        align-items: center;
+    }
+
+
+    .section6_figure {
+        width: 300px;
+    }
+
+    .section6_price_div {
+        gap: 140px;
+    }
+
+    /* section7 */
+    .section7_text_input::placeholder,
+    .section7_email_input::placeholder,
+    textarea::placeholder, 
+    .section7_submit_input {
+        line-height: normal;
+    }
+    /* section8 */
+    .section8_h3 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+}

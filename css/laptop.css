@@ -1,0 +1,171 @@
+@media (max-width: 1250px) {
+
+    /* section6 */
+    .section6_div {
+        column-gap: 391px;
+    }
+
+
+    .section6_figure {
+        width: 468px;
+    }
+
+    .hide_figure {
+        display: none;
+    }
+
+    .section6_price_div {
+        gap: 314px;
+
+    }
+
+    /* section7 */
+    .section7 {
+        padding-left: 32px;
+    }
+}
+
+@media (max-width: 1100px) {
+
+    /* header */
+    header {
+        padding-inline: 32px;
+    }
+
+    /* section3 */
+    .section3 {
+        padding-inline: 32px 0;
+    }
+
+    /* footer */
+    footer {
+        padding-inline: 32px;
+
+    }
+}
+
+@media (max-width: 970px) {
+
+    /* container */
+    .conteiner {
+        padding-top: 95px;
+    }
+
+    /* header */
+    header {
+        padding: 9px 24px;
+    }
+    
+    .header_ul {
+        display: none;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+        position: fixed;
+        top: 95px;
+        left: 0;
+        width: 240px;
+        height: 160px;
+        gap: 0;
+        padding: 25px 143px 25px 20px;
+        background: #B53B1B;
+        transition: 0.5s linear;
+
+    }
+
+    .burger {
+        display: block;
+    }
+
+    .header_logo {
+        display: none;
+    }
+
+    .header_resp_logo {
+        display: block;
+    }
+
+    /* section2 */
+    .section2_card1,
+    .section2_card2,
+    .section2_card3,
+    .section2_card4 {
+        width: 180px;
+        height: 162px;
+    }
+
+    .section2_card2 {
+        background-image: url(../images/homepage/card2_2.png)
+    }
+
+    .section2_button1,
+    .section2_button2,
+    .section2_button3,
+    .section2_button4 {
+        font-size: 16px;
+        padding: 8px;
+    }
+
+    /* section3 */
+    .section3_h3 {
+        text-align: start;
+        margin-left: 32px;
+    }
+
+    /* footer */
+    footer {
+        padding: 87px 24px;
+
+    }
+
+    /* section6 */
+    .section6_div {
+        column-gap: 127px;
+    }
+
+
+    .section6_figure {
+        width: 336px;
+    }
+
+
+    .section6_price_div {
+        gap: 182px;
+
+    }
+
+    /* section7 */
+    .section7 {
+        padding-left: 24px;
+    }
+
+    /* section8 */
+    .section8 {
+        padding-inline: 24px;
+    }
+
+    .section8_h3 {
+        line-height: normal;
+
+    }
+
+    .section8_div {
+        flex-direction: column;
+        width: 100%;
+        gap: 40px;
+    }
+
+    .section8_contact_ul {
+        flex-direction: row;
+
+    }
+
+    .section8_span {
+        display: none;
+    }
+
+    iframe {
+        width: 100%;
+        height: 320px;
+    }
+}
